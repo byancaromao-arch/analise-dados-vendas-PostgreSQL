@@ -1,29 +1,30 @@
-# analise-dados-vendas-PostgreSQL
-Projeto de SQL com criação de tabelas e consultas analíticas, baseado no aprendizado do curso DSA
+# Análise de Vendas com PostgreSQL
 
-Este projeto tem como objetivo praticar SQL através da criação de tabelas, inserção de dados e consultas analíticas.
+Projeto de análise de dados utilizando SQL e PostgreSQL para simular um cenário de vendas, com criação de tabelas, inserção de dados e consultas analíticas.
 
-## Estrutura
+## Objetivo
 
-* `schema.sql`: criação das tabelas
-* `inserts.sql`: inserção de dados
-* `queries.sql`: consultas para análise
-
-## Consultas realizadas
-
-* Filtro de dados com WHERE
-* Junção de tabelas (JOIN)
-* Agregações com COUNT, SUM e AVG
-* Ordenação com ORDER BY
+Analisar dados de vendas para identificar produtos mais vendidos, receita total e clientes com maior volume de compras.
 
 ## Tecnologias
 
-* PostgreSQL
-* SQL
+- PostgreSQL
+- SQL
 
-##  Exemplos de análise
+## Estrutura
 
-* Produtos mais vendidos
-* Receita total
-* Clientes com mais compras
+- `schema.sql`: criação das tabelas
+- `inserts.sql`: inserção dos dados
+- `queries.sql`: consultas analíticas
+
+## Análises realizadas
+
+- Receita total de vendas
+- Produtos mais vendidos
+- Clientes com maior número de compras
+- Consultas com filtros, junções, agrupamentos e ordenação
+
+## Principais aprendizados
+
+Neste projeto pratiquei modelagem básica de dados relacionais, criação de tabelas, inserção de registros e consultas SQL para análise de vendas.
 
